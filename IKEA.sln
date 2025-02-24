@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IKEA.PL", "IKEA.PL\IKEA.PL.csproj", "{EA882F1B-553D-4BF5-B41F-057FCAEB84BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IKEA.BLL", "IKEA.BLL\IKEA.BLL.csproj", "{E3E140D0-882F-4CA6-85C7-D1FB5E572807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IKEA.DAL", "IKEA.DAL\IKEA.DAL.csproj", "{BC95AF6D-40DF-47C3-9BDC-B72053F12718}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA882F1B-553D-4BF5-B41F-057FCAEB84BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA882F1B-553D-4BF5-B41F-057FCAEB84BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA882F1B-553D-4BF5-B41F-057FCAEB84BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA882F1B-553D-4BF5-B41F-057FCAEB84BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E140D0-882F-4CA6-85C7-D1FB5E572807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E140D0-882F-4CA6-85C7-D1FB5E572807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E140D0-882F-4CA6-85C7-D1FB5E572807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E140D0-882F-4CA6-85C7-D1FB5E572807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC95AF6D-40DF-47C3-9BDC-B72053F12718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC95AF6D-40DF-47C3-9BDC-B72053F12718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC95AF6D-40DF-47C3-9BDC-B72053F12718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC95AF6D-40DF-47C3-9BDC-B72053F12718}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06F01635-B92D-4993-BE84-1606185BF463}
+	EndGlobalSection
+EndGlobal
