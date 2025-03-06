@@ -12,7 +12,7 @@ namespace IKEA.PL
             var builder = WebApplication.CreateBuilder(args);
             #region
             // Add services to the container.
-            builder.Services.AddControllersWithViews();
+            builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
             builder.Services.AddDbContext<ApplicationDbContext>(optionBuilder =>
             optionBuilder.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
             );
